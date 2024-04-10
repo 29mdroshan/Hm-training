@@ -1,0 +1,17 @@
+<div class="container">
+    <table class="table table-dark table-hover">
+        <thead>
+            <th>Movie Name</th>
+            <th>Rating</th>
+            <th>Genre</th>
+        </thead>
+        <tbody *ngIf="movies">
+            <tr  *ngFor="let i of movies">
+                <td>{{i.movieName |titlecase }}</td>
+                <td>{{i.rating}}</td>
+                <td>{{i.genre |titlecase}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="search">
+        <select class='col-md-3' required name="genre" id="genre" #t_genre ngModel>
+            <option value="drama" selected>Drama</option>
+            <option value="fiction" selected>Fiction</option>
+            <option value="satire" selected>Satire</option>
+        </select>
+        <button (click)="searchMovies(t_genre.value)" class="btn btn-outline-dark col-md-2" >Search</button>
+    </div>
+    <div *ngIf="movies.length != 0" class="container">
+        <table class="table table-dark table-striped">
+            <thead>
+                <th>Movie Name</th>
+                <th>Rating</th>
+                <th>Genre</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let i of movies">
+                    <td>{{i.movieName | titlecase}}</td>
+                    <td>{{i.rating}}</td>
+                    <td>{{i.genre | titlecase}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

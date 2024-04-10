@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="search">
+        <select class='col-md-3' required name="rating" id="rating" #t_rating ngModel>
+            <option value="a" selected>Below 2</option>
+            <option value="b" selected>Above 2</option>
+            <option value="c" selected>Above 3</option>
+            <option value="d" selected>Above 4</option>
+        </select>
+        <button (click)="searchMovies(t_rating.value)" class="btn btn-outline-dark col-md-2">Search</button>
+    </div>
+</div>
+<div>
+    {{ratingText|json}}
+</div>

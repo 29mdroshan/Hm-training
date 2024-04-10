@@ -1,0 +1,70 @@
+{
+  "movies": [
+    {
+      "movieName": "iron",
+      "rating": "3.4",
+      "genre": "fiction",
+      "id": 1
+    },
+    {
+      "movieName": "Wakanda Forever",
+      "rating": "4",
+      "genre": "fiction",
+      "id": 2
+    },
+    {
+      "movieName": "Titanic",
+      "rating": "4.5",
+      "genre": "drama",
+      "id": 3
+    },
+    {
+      "movieName": "Shaw shank",
+      "rating": "3",
+      "genre": "drama",
+      "id": 4
+    },
+    {
+      "movieName": "Avaitor",
+      "rating": "4",
+      "genre": "drama",
+      "id": 5
+    },
+    {
+      "movieName": "Fida",
+      "rating": "5",
+      "genre": "drama",
+      "id": 6
+    },
+    {
+      "movieName": "Avatar",
+      "rating": "4.7",
+      "genre": "fiction",
+      "id": 7
+    },
+    {
+      "movieName": "End Game",
+      "rating": "5",
+      "genre": "fiction",
+      "id": 8
+    },
+    {
+      "movieName": "The Player",
+      "rating": "2.5",
+      "genre": "satire",
+      "id": 9
+    },
+    {
+      "movieName": "Racism",
+      "rating": "3",
+      "genre": "satire",
+      "id": 10
+    },
+    {
+      "movieName": "Politics",
+      "rating": "4.3",
+      "genre": "satire",
+      "id": 11
+    }
+  ]
+}
